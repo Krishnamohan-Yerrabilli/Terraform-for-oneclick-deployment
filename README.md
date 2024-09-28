@@ -17,7 +17,31 @@ This project showcases how to deploy a React.js web application using AWS servic
 
 ### Simple Setup Instructions
 
-Clone the repository:
-   ```bash
-   git clone <** https://github.com/Krishnamohan-Yerrabilli/Terraform-for-oneclick-deployment/edit/main/README.md **>
+### Clone the repository:
 
+      git clone https://github.com/Krishnamohan-Yerrabilli/Terraform-for-oneclick-deployment/edit/main/README.md 
+
+#### 2) Initialize Terraform
+
+      terraform init   
+
+#### 3) Plan the infrastructure:
+
+      terraform plan 
+
+#### 4) Apply the changes:
+
+   terraform apply   
+
+#### Project Structure
+
+    main.tf: Contains the Terraform configuration.
+    package.json: Lists the project dependencies.
+    src/: Contains the source code for the React app.
+
+#### Contributing
+
+Feel free to submit issues or pull requests. Contributions are welcome!
+License
+
+This project is licensed under the MIT License.
